@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="20.0.0" >
+        <source path="E:\Proyectos\Android\Al-lah\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="E:\Proyectos\Android\Al-lah\app\src\main\res" >
+            <file
+                name="drawer_shadow"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-hdpi\drawer_shadow.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-hdpi\ic_drawer.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-mdpi\drawer_shadow.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-mdpi\ic_drawer.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-xhdpi\drawer_shadow.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-xhdpi\ic_drawer.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-xxhdpi\drawer_shadow.9.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-xxhdpi\ic_drawer.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_semestre"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\layout\activity_semestre.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_main"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\layout\fragment_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_navigation_drawer"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\layout\fragment_navigation_drawer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="global"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\menu\global.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="semestre"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\menu\semestre.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\values\colors.xml"
+                qualifiers="" >
+                <color name="uno" >#FF6EBD45
+                </color>
+            </file>
+            <file
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="navigation_drawer_width" >240dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="title_section1" >Hoy
+                </string>
+                <string name="action_settings" >Ajustes
+                </string>
+                <string name="title_section3" >Semestre
+                </string>
+                <string name="title_section2" >Calendario
+                </string>
+                <string name="title_section5" >Estadisticas
+                </string>
+                <string name="navigation_drawer_close" >Close navigation drawer
+                </string>
+                <string name="title_section4" >Pendientes
+                </string>
+                <string name="title_activity_semestre" >Semestre
+                </string>
+                <string name="title_activity_calendario" >Calendario
+                </string>
+                <string name="title_section6" >Notas
+                </string>
+                <string name="action_example" >Thot
+                </string>
+                <string name="app_name" >Al-lah
+                </string>
+                <string name="semestre" >Semestres
+                </string>
+                <string name="navigation_drawer_open" >Open navigation drawer
+                </string>
+            </file>
+            <file
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\values-w820dp\dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                name="calendario"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\menu\calendario.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_calendario"
+                path="E:\Proyectos\Android\Al-lah\app\src\main\res\layout\activity_calendario.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="E:\Proyectos\Android\Al-lah\app\build\generated\res\rs\debug" />
+        <source path="E:\Proyectos\Android\Al-lah\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="E:\Proyectos\Android\Al-lah\app\src\debug\res" />
+    </dataSet>
+
+</merger>

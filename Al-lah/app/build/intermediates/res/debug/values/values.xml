@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/E:/Proyectos/Android/Al-lah/app/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="uno">#FF6EBD45</color>
+    <!-- From: file:/E:/Proyectos/Android/Al-lah/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <!-- From: file:/E:/Proyectos/Android/Al-lah/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_example">Thot</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="app_name">Al-lah</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="semestre">Semestres</string>
+    <string name="title_activity_calendario">Calendario</string>
+    <string name="title_activity_semestre">Semestre</string>
+    <string name="title_section1">Hoy</string>
+    <string name="title_section2">Calendario</string>
+    <string name="title_section3">Semestre</string>
+    <string name="title_section4">Pendientes</string>
+    <string name="title_section5">Estadisticas</string>
+    <string name="title_section6">Notas</string>
+    <!-- From: file:/E:/Proyectos/Android/Al-lah/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="E:\Proyectos\Android\Al-lah\app\src\androidTest\res" />
+        <source path="E:\Proyectos\Android\Al-lah\app\build\generated\res\rs\test\debug" />
+        <source path="E:\Proyectos\Android\Al-lah\app\build\generated\res\generated\test\debug" />
+    </dataSet>
+
+</merger>
