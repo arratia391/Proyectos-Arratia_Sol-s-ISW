@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thot</string>
+    <string name="title_section1">Hoy</string>
+    <string name="title_section2">Calendario</string>
+    <string name="title_section3">Semestre</string>
+    <string name="title_section4">Evaluaciones</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="prueba">prueba</string>
+    <string name="eliminar">elminar</string>
+    <string name="modificar">modificar</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="secciones">
+        <item>Hoy</item>
+        <item>Calendario</item>
+        <item>Semestre</item>
+        <item>Evaluaciones</item>
+    </string-array>
+
+    <array name="iconos">
+        <item>@drawable/home_amarillo</item>
+        <item>@android:drawable/ic_menu_today</item>
+        <item>@android:drawable/ic_menu_edit</item>
+        <item>@android:drawable/ic_menu_agenda</item>
+    </array>
+
+    <string name="title_activity_info_semestre">infoSemestre</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

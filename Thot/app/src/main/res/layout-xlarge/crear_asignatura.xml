@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:id="@+id/scrollView1"
+
+    android:fillViewport="true">
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlCrearAsignatura">
+
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl1CrearSemestre">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Crear Asignatura"
+                android:id="@+id/tvTituloAsignatura"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:capitalize="sentences"
+                android:id="@+id/etAsignaturaTitulo"
+                android:layout_marginTop="24dp"
+                android:layout_below="@+id/tvTituloAsignatura"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:hint="Asignatura" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerColor"
+                android:layout_below="@+id/etAsignaturaTitulo"
+                android:layout_toStartOf="@+id/tvTituloAsignatura"
+                android:layout_marginTop="26dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerIcono"
+            android:layout_below="@+id/spinnerColor"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:id="@+id/rl2CrearAsignatura"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horario"
+                android:id="@+id/tvHorario"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textColor="@color/AzulVerde"
+                android:textSize="18dp"
+                android:singleLine="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desde"
+                android:id="@+id/tvTiempoDesde"
+                android:layout_toEndOf="@+id/tvHorario"
+                android:layout_marginTop="17dp"
+                android:layout_below="@+id/tvHorario"
+                android:layout_toRightOf="@+id/tvHorario"
+                android:layout_marginLeft="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasta"
+                android:id="@+id/tvTiempoHasta"
+                android:layout_alignTop="@+id/tvTiempoDesde"
+                android:layout_toRightOf="@+id/tvTiempoDesde"
+                android:layout_toEndOf="@+id/tvTiempoDesde"
+                android:layout_marginLeft="74dp" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etTiempoDesde"
+                android:layout_below="@+id/tvTiempoDesde"
+                android:layout_alignLeft="@+id/tvTiempoDesde"
+                android:layout_alignStart="@+id/tvTiempoDesde" />
+
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etTiempoHasta"
+                android:layout_below="@+id/tvTiempoHasta"
+                android:layout_alignLeft="@+id/tvTiempoHasta"
+                android:layout_alignStart="@+id/tvTiempoHasta" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ivTiempoDesde"
+                android:src="@android:drawable/ic_menu_edit"
+                android:layout_toStartOf="@+id/tvTiempoHasta"
+                android:layout_below="@+id/etTiempoDesde"
+                android:layout_alignRight="@+id/etTiempoDesde"
+                android:layout_alignEnd="@+id/etTiempoDesde"
+                android:layout_alignLeft="@+id/etTiempoDesde"
+                android:layout_alignStart="@+id/etTiempoDesde" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ivTiempoHasta"
+                android:src="@android:drawable/ic_menu_edit"
+                android:layout_below="@+id/etTiempoHasta"
+                android:layout_alignRight="@+id/etTiempoHasta"
+                android:layout_alignEnd="@+id/etTiempoHasta"
+                android:layout_alignLeft="@+id/etTiempoHasta"
+                android:layout_alignStart="@+id/etTiempoHasta" />
+        </RelativeLayout><RelativeLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl3crearAsignatura"
+            android:layout_below="@+id/rl2CrearAsignatura"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="39dp"
+    android:layout_gravity="bottom|left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semana"
+                android:id="@+id/tvSemana"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textColor="@color/AzulVerde"
+                android:textSize="18dp"
+                android:singleLine="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunes"
+                android:id="@+id/chbLun"
+                android:layout_below="@+id/tvSemana"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="19dp"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Martes"
+                android:id="@+id/chbMar"
+                android:layout_below="@+id/chbLun"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Miercoles"
+                android:id="@+id/chbMiercoles"
+                android:layout_alignBottom="@+id/chbLun"
+                android:layout_toRightOf="@+id/chbMar"
+                android:layout_toEndOf="@+id/chbMar"
+                android:layout_marginLeft="23dp"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jueves"
+                android:id="@+id/chbJue"
+                android:layout_alignTop="@+id/chbMar"
+                android:layout_alignLeft="@+id/chbMiercoles"
+                android:layout_alignStart="@+id/chbMiercoles"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Viernes"
+                android:id="@+id/chbVie"
+                android:layout_toEndOf="@+id/chbMiercoles"
+                android:layout_marginLeft="23dp"
+                android:layout_alignTop="@+id/chbMiercoles"
+                android:layout_toRightOf="@+id/chbMiercoles"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sabado"
+                android:id="@+id/chbSab"
+                android:layout_alignTop="@+id/chbJue"
+                android:layout_alignLeft="@+id/chbVie"
+                android:layout_alignStart="@+id/chbVie"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Domingo"
+                android:id="@+id/chbDom"
+                android:layout_below="@+id/chbSab"
+                android:layout_alignLeft="@+id/chbSab"
+                android:layout_alignStart="@+id/chbSab"
+                android:checked="false" />
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/rl3crearAsignatura"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="24dp"
+            android:hint="Profesor  (Opcional)" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="Ayudante  (Opcional)" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+    </ScrollView>
+

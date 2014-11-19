@@ -1,0 +1,11 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:choiceMode="singleChoice"
+    android:divider="@color/list_background_white"
+    android:dividerHeight="1dp"
+    android:textColor="@color/list_text"
+    android:background="@color/list_background_white"
+    android:listSelector="@drawable/list_item_bg_pressed"
+    tools:context=".NavigationDrawerFragment" />
