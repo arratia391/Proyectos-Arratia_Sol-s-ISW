@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/madera"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    Estas opciones son para que se pinte el recuadro seleccionado.
+    .
+            android:listSelector="@drawable/list_item_bg_pressed"
+            android:choiceMode="singleChoice"-->
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvAsignatura"
+        android:listSelector="@drawable/list_selector_dos"
+        android:choiceMode="singleChoice"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No hay Asignaturas ingresadas"
+        android:visibility="gone"
+        android:textColor="@color/list_item_title"
+        android:id="@+id/tvMensajeSinAsignatura"
+        android:layout_alignTop="@+id/lvAsignatura"
+        android:layout_centerHorizontal="true"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

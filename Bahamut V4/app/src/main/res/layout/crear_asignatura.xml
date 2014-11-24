@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:scrollbars="none"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:id="@+id/scrollView1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlCrear_Asignatura">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Crear Asignatura"
+        android:id="@+id/tvTituloAsignatura"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:capitalize="sentences"
+        android:id="@+id/etAsignaturaTitulo"
+        android:layout_marginTop="38dp"
+        android:hint="Asignatura"
+        android:layout_below="@+id/tvTituloAsignatura"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerColor"
+        android:prompt="@string/spinnerColorInicio"
+        android:spinnerMode="dialog"
+        android:layout_below="@+id/tvColorAsignatura"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerIcono"
+        android:prompt="@string/spinnerIconInicio"
+        android:spinnerMode="dialog"
+        android:layout_below="@+id/tvIconoAsignatura"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcional"
+        android:id="@+id/tvOpcional"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:textColor="@color/AzulVerde"
+        android:textSize="18dp"
+        android:singleLine="false"
+        android:layout_below="@+id/spinnerIcono"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="Profesor  (Opcional)"
+        android:layout_below="@+id/tvOpcional"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Ayudante  (Opcional)"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color"
+        android:id="@+id/tvColorAsignatura"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:textColor="@color/AzulVerde"
+        android:textSize="18dp"
+        android:singleLine="false"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/etAsignaturaTitulo"
+        android:layout_alignRight="@+id/tvIconoAsignatura"
+        android:layout_alignEnd="@+id/tvIconoAsignatura" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Icono"
+        android:id="@+id/tvIconoAsignatura"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:textColor="@color/AzulVerde"
+        android:textSize="18dp"
+        android:singleLine="false"
+        android:layout_below="@+id/spinnerColor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+
+
+</RelativeLayout>
+
+</ScrollView>

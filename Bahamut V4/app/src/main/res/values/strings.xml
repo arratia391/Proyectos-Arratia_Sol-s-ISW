@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bahamut</string>
+    <string name="title_section1">Hoy</string>
+    <string name="title_section2">Calendario</string>
+    <string name="title_section3">Semestre</string>
+    <string name="title_section4">Asignaturas</string>
+    <string name="title_section5">Temas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="prueba">prueba</string>
+    <string name="eliminar">elminar</string>
+    <string name="modificar">modificar</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="spinnerColorInicio">Escoja un color</string>
+    <string name="spinnerIconInicio">Escoja un icono</string>
+
+    <string-array name="secciones">
+        <item>Hoy</item>
+        <item>Calendario</item>
+        <item>Semestre</item>
+        <item>Asignaturas</item>
+        <item>Temas</item>
+    </string-array>
+
+    <array name="iconos">
+        <item>@drawable/ic_home</item>
+        <item>@android:drawable/ic_menu_today</item>
+        <item>@android:drawable/ic_menu_edit</item>
+        <item>@android:drawable/ic_menu_agenda</item>
+        <item>@android:drawable/ic_menu_gallery</item>
+    </array>
+
+    <string name="title_activity_info_semestre">infoSemestre</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

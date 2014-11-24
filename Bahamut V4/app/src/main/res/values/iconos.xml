@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="iconosAsignatura">
+        <item></item>
+        <item>@drawable/biologia</item>
+        <item>@drawable/historia</item>
+        <item>@drawable/libretas</item>
+        <item>@drawable/mate</item>
+        <item>@drawable/quimica</item>
+    </array>
+
+</resources>
