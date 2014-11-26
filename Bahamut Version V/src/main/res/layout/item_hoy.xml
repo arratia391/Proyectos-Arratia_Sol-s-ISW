@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="#fff7f5ff">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="Comunicacion de Datos"
+        android:id="@+id/tvTituloAsignaturaHoy"
+        android:layout_alignParentTop="true"
+        android:background="@color/green"
+        android:textColor="#fff"
+        android:textSize="18dp"
+
+        android:paddingTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/tvTituloQuedanHoy"
+        android:layout_toLeftOf="@+id/tvTituloQuedanHoy"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/ivHoy"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/historia"
+        android:layout_below="@+id/tvTituloAsignaturaHoy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="9dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catedra"
+        android:id="@+id/tvTipoHoy"
+        android:layout_alignTop="@+id/ivHoy"
+        android:layout_toRightOf="@+id/ivHoy"
+        android:layout_toEndOf="@+id/ivHoy"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/AzulVerde" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13:00  -  14:30"
+        android:id="@+id/tvPeriodoHoy"
+        android:layout_below="@+id/tvTipoHoy"
+        android:layout_alignLeft="@+id/tvTipoHoy"
+        android:layout_alignStart="@+id/tvTipoHoy"
+        android:textStyle="italic"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20:00"
+        android:id="@+id/tvPeriodoFaltanteHoy"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        android:layout_alignBottom="@+id/ivHoy"
+        android:layout_toRightOf="@+id/tvTituloQuedanHoy"
+        android:layout_toEndOf="@+id/tvTituloQuedanHoy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quedan: "
+        android:id="@+id/tvTituloQuedanHoy"
+        android:textSize="8dp"
+        android:textColor="@color/AzulVerde"
+        android:layout_above="@+id/tvPeriodoFaltanteHoy"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sala"
+        android:id="@+id/textView2"
+        android:textSize="8dp"
+        android:textColor="@color/AzulVerde"
+
+        android:layout_toEndOf="@+id/tvPeriodoHoy"
+        android:layout_marginLeft="59dp"
+        android:layout_above="@+id/tvPeriodoHoy"
+        android:layout_toRightOf="@+id/tvPeriodoHoy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M2 202"
+        android:id="@+id/tvSalaHoy"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/tvPeriodoFaltanteHoy"
+        android:layout_alignStart="@+id/tvPeriodoFaltanteHoy" />
+
+</RelativeLayout>

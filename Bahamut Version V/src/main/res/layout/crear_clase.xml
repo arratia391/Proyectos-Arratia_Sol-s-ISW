@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Clase Regular"
+        android:id="@+id/tvTituloClase"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTipoClase"
+        android:capitalize="sentences"
+        android:layout_marginTop="45dp"
+        android:hint="Tipo"
+        android:layout_below="@+id/tvTituloClase"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivInfoClase"
+        android:layout_toEndOf="@+id/etTipoClase"
+        android:src="@android:drawable/ic_menu_info_details"
+        android:layout_alignBottom="@+id/etTipoClase"
+        android:layout_toRightOf="@+id/etTipoClase" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout2"
+        android:layout_below="@+id/etSalaClase"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horario"
+            android:id="@+id/textView"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textColor="@color/AzulVerde"
+            android:textSize="18dp"
+            android:singleLine="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desde"
+            android:id="@+id/tvDesdeClase"
+            android:layout_below="@+id/textView"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_marginTop="21dp"
+            android:textColor="@color/AzulVerde" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasta"
+            android:id="@+id/tvHastaClase"
+            android:textColor="@color/AzulVerde"
+            android:layout_below="@+id/tvDesdeClase"
+            android:layout_alignLeft="@+id/tvDesdeClase"
+            android:layout_alignStart="@+id/tvDesdeClase"
+            android:layout_marginTop="29dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Domingo, 26 Nov. 2014"
+            android:id="@+id/tvFechaDesdeClase"
+            android:layout_alignTop="@+id/tvDesdeClase"
+            android:layout_centerHorizontal="true"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:30"
+            android:id="@+id/tvHoraDesdeClase"
+            android:layout_toEndOf="@+id/tvFechaDesdeClase"
+            android:layout_marginLeft="34dp"
+            android:layout_alignTop="@+id/tvFechaDesdeClase"
+            android:layout_toRightOf="@+id/tvFechaDesdeClase" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunes, 27 Ene. 2014"
+            android:id="@+id/tvFechaHastaClase"
+            android:layout_alignTop="@+id/tvHastaClase"
+            android:layout_alignLeft="@+id/tvFechaDesdeClase"
+            android:layout_alignStart="@+id/tvFechaDesdeClase"
+            android:layout_alignRight="@+id/tvFechaDesdeClase"
+            android:layout_alignEnd="@+id/tvFechaDesdeClase"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:30"
+            android:id="@+id/tvHoraHastaClase"
+            android:layout_alignTop="@+id/tvFechaHastaClase"
+            android:layout_alignLeft="@+id/tvHoraDesdeClase"
+            android:layout_alignStart="@+id/tvHoraDesdeClase" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout3"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunes"
+            android:id="@+id/chbLun"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="19dp"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Martes"
+            android:id="@+id/chbMar"
+            android:layout_below="@+id/chbLun"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miercoles"
+            android:id="@+id/chbMiercoles"
+            android:layout_alignBottom="@+id/chbLun"
+            android:layout_toRightOf="@+id/chbMar"
+            android:layout_toEndOf="@+id/chbMar"
+            android:layout_marginLeft="23dp"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jueves"
+            android:id="@+id/chbJue"
+            android:layout_alignTop="@+id/chbMar"
+            android:layout_alignLeft="@+id/chbMiercoles"
+            android:layout_alignStart="@+id/chbMiercoles"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Viernes"
+            android:id="@+id/chbVie"
+            android:layout_toEndOf="@+id/chbMiercoles"
+            android:layout_marginLeft="23dp"
+            android:layout_alignTop="@+id/chbMiercoles"
+            android:layout_toRightOf="@+id/chbMiercoles"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabado"
+            android:id="@+id/chbSab"
+            android:layout_alignTop="@+id/chbJue"
+            android:layout_alignLeft="@+id/chbVie"
+            android:layout_alignStart="@+id/chbVie"
+            android:checked="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semana"
+            android:id="@+id/textView4"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textColor="@color/AzulVerde"
+            android:textSize="18dp"
+            android:singleLine="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Domingo"
+            android:id="@+id/chbDom"
+            android:layout_below="@+id/chbSab"
+            android:layout_alignLeft="@+id/chbSab"
+            android:layout_alignStart="@+id/chbSab"
+            android:checked="false" />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSalaClase"
+        android:capitalize="sentences"
+        android:hint="Sala"
+        android:layout_below="@+id/ivInfoClase"
+        android:layout_alignLeft="@+id/etTipoClase"
+        android:layout_alignStart="@+id/etTipoClase" />
+</RelativeLayout>

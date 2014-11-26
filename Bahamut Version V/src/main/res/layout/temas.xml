@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivuno"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/arojo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="36dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivdos"
+        android:src="@drawable/bnaranja"
+        android:layout_alignBottom="@+id/ivuno"
+        android:layout_toRightOf="@+id/ivuno"
+        android:layout_toEndOf="@+id/ivuno" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivtres"
+        android:src="@drawable/camarillo"
+        android:layout_alignBottom="@+id/ivdos"
+        android:layout_toRightOf="@+id/ivdos"
+        android:layout_toEndOf="@+id/ivdos" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivcuatro"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/dverdeoscuro"
+        android:layout_below="@+id/ivuno"
+        android:layout_alignLeft="@+id/ivuno"
+        android:layout_alignStart="@+id/ivuno" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivcinco"
+        android:src="@drawable/everdeclaro"
+        android:layout_alignBottom="@+id/ivcuatro"
+        android:layout_toRightOf="@+id/ivcuatro"
+        android:layout_toEndOf="@+id/ivcuatro" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivseis"
+        android:src="@drawable/fazul"
+        android:layout_alignBottom="@+id/ivcinco"
+        android:layout_alignLeft="@+id/ivtres"
+        android:layout_alignStart="@+id/ivtres" />
+</RelativeLayout>

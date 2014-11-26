@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/crear_semestre">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Crear Semestre"
+        android:id="@+id/tvTituloSemestre"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:capitalize="sentences"
+        android:id="@+id/etSemestre"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/tvTituloSemestre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Semestre" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDesde"
+        android:layout_below="@+id/etSemestre"
+        android:layout_marginTop="40dp"
+        android:layout_alignRight="@+id/tvTituloSemestre"
+        android:layout_alignEnd="@+id/tvTituloSemestre"
+        android:layout_alignLeft="@+id/tvDesde"
+        android:layout_alignStart="@+id/tvDesde"
+        android:editable="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Desde"
+        android:id="@+id/tvDesde"
+        android:textColor="@color/AzulVerde"
+        android:layout_marginLeft="19dp"
+        android:layout_below="@+id/etSemestre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivDesde"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_toEndOf="@+id/etDesde"
+        android:layout_marginLeft="13dp"
+        android:layout_alignTop="@+id/tvDesde"
+        android:layout_toRightOf="@+id/etDesde" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivHasta"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_alignBottom="@+id/etHasta"
+        android:layout_alignLeft="@+id/ivDesde"
+        android:layout_alignStart="@+id/ivDesde" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etHasta"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/etDesde"
+        android:layout_toLeftOf="@+id/ivDesde"
+        android:layout_toStartOf="@+id/ivDesde"
+        android:layout_alignLeft="@+id/etDesde"
+        android:layout_alignStart="@+id/etDesde"
+        android:editable="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Hasta"
+        android:id="@+id/tvHasta"
+        android:textColor="@color/AzulVerde"
+        android:layout_above="@+id/ivHasta"
+        android:layout_alignLeft="@+id/etHasta"
+        android:layout_alignStart="@+id/etHasta" />
+
+
+</RelativeLayout>

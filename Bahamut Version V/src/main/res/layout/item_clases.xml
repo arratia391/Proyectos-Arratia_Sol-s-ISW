@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Blanco">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catedra"
+            android:id="@+id/tvTipoClase"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="23dp"
+            android:textStyle="italic"
+            android:textColor="@color/AzulVerde" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/ivIconClase"
+            android:src="@drawable/biologia"
+            android:layout_below="@+id/tvTipoClase"
+            android:layout_alignLeft="@+id/tvTipoClase"
+            android:layout_alignStart="@+id/tvTipoClase"
+            android:layout_marginLeft="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lun"
+            android:id="@+id/tvLunClase"
+            android:layout_marginLeft="29dp"
+            android:textSize="10dp"
+            android:textColor="#ffdadada"
+            android:layout_below="@+id/tvTipoClase"
+            android:layout_toRightOf="@+id/ivIconClase"
+            android:layout_toEndOf="@+id/ivIconClase" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mar"
+            android:id="@+id/tvMarClase"
+            android:layout_toEndOf="@+id/tvLunClase"
+            android:layout_alignTop="@+id/tvLunClase"
+            android:layout_toRightOf="@+id/tvLunClase"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:textColor="#ffdadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mie"
+            android:id="@+id/tvMieClase"
+            android:layout_alignTop="@+id/tvMarClase"
+            android:layout_toRightOf="@+id/tvMarClase"
+            android:layout_toEndOf="@+id/tvMarClase"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:textColor="#ffdadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jue"
+            android:id="@+id/tvJueClase"
+            android:layout_toEndOf="@+id/tvMieClase"
+            android:layout_alignTop="@+id/tvMieClase"
+            android:layout_toRightOf="@+id/tvMieClase"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:textColor="#ffdadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vie"
+            android:id="@+id/tvVieClase"
+            android:layout_alignTop="@+id/tvJueClase"
+            android:layout_toRightOf="@+id/tvJueClase"
+            android:layout_toEndOf="@+id/tvJueClase"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:textColor="#ffdadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sab"
+            android:id="@+id/tvSabClase"
+            android:layout_alignTop="@+id/tvVieClase"
+            android:layout_toRightOf="@+id/tvVieClase"
+            android:layout_toEndOf="@+id/tvVieClase"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:textColor="#ffdadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dom"
+            android:id="@+id/tvDomClase"
+            android:layout_alignTop="@+id/tvSabClase"
+            android:layout_toRightOf="@+id/tvSabClase"
+            android:layout_toEndOf="@+id/tvSabClase"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:textColor="#ffdadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13:00  -  14:30"
+            android:id="@+id/tvPeriodoClase"
+            android:textStyle="italic"
+            android:textSize="11dp"
+            android:layout_toEndOf="@+id/tvLunClase"
+            android:layout_toStartOf="@+id/tvSabClase"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/tvMieClase"
+            android:layout_alignStart="@+id/tvMieClase" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sala"
+            android:id="@+id/tvTituloSala"
+
+            android:textSize="10dp"
+            android:textColor="@color/AzulVerde"
+
+            android:layout_toEndOf="@+id/tvJueClase"
+            android:layout_alignBottom="@+id/ivIconClase"
+            android:layout_toRightOf="@+id/tvJueClase" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M2 - 302"
+            android:id="@+id/tvSalaClase"
+
+            android:textSize="8dp"
+            android:layout_below="@+id/tvTituloSala"
+            android:layout_toRightOf="@+id/tvTituloSala"
+            android:layout_toEndOf="@+id/tvTituloSala"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            android:id="@+id/tvColorClase"
+            android:background="@color/ColorTema"
+            android:layout_above="@+id/tvTituloSala"
+            android:layout_alignLeft="@+id/tvLunClase"
+            android:layout_alignStart="@+id/tvLunClase"
+            android:layout_alignRight="@+id/tvDomClase"
+            android:layout_alignEnd="@+id/tvDomClase" />
+
+    </RelativeLayout>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="iconosAsignatura">
+        <item>@drawable/ninguno</item>
+        <item>@drawable/aicono</item>
+        <item>@drawable/bicono</item>
+        <item>@drawable/cicono</item>
+        <item>@drawable/dicono</item>
+        <item>@drawable/eicono</item>
+        <item>@drawable/ficono</item>
+        <item>@drawable/gcono</item>
+        <item>@drawable/hcono</item>
+        <item>@drawable/iconos</item>
+        <item>@drawable/jicono</item>
+        <item>@drawable/kicono</item>
+        <item>@drawable/lcono</item>
+    </array>
+
+</resources>

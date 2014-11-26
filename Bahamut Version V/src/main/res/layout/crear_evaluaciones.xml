@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlEvaluacion">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Evaluaciones"
+        android:id="@+id/tvTituloEvaluaciones"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNombreEvaluacion"
+        android:layout_below="@+id/tvTituloEvaluaciones"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Nombre"
+        android:capitalize="sentences"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:id="@+id/tvTituloFecha"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/etNombreEvaluacion"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:textColor="@color/AzulVerde" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26 de Noviembre del 2014"
+        android:id="@+id/tvFechaEvaluacion"
+        android:layout_below="@+id/tvTituloFecha"
+        android:layout_alignLeft="@+id/tvTituloEvaluaciones"
+        android:layout_alignStart="@+id/tvTituloEvaluaciones"
+        android:layout_marginLeft="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora"
+        android:id="@+id/tvTituloHora"
+        android:layout_marginTop="19dp"
+        android:textColor="@color/AzulVerde"
+        android:layout_below="@+id/tvFechaEvaluacion"
+        android:layout_alignLeft="@+id/tvTituloFecha"
+        android:layout_alignStart="@+id/tvTituloFecha" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11:20"
+        android:id="@+id/tvHoraEvaluacion"
+        android:layout_below="@+id/tvTituloHora"
+        android:layout_alignLeft="@+id/tvFechaEvaluacion"
+        android:layout_alignStart="@+id/tvFechaEvaluacion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ponderacion"
+        android:id="@+id/tvTituloPonderacion"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/AzulVerde"
+        android:layout_below="@+id/tvHoraEvaluacion"
+        android:layout_alignLeft="@+id/tvTituloHora"
+        android:layout_alignStart="@+id/tvTituloHora" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPonderacionEvaluacion"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/tvHoraEvaluacion"
+        android:layout_alignStart="@+id/tvHoraEvaluacion"
+        android:hint="   %"
+        android:inputType="numberDecimal"/>
+</RelativeLayout>
